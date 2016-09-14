@@ -1,6 +1,3 @@
-// C++ string class
-// safer way to use strings
-
 #include <iostream>
 using namespace std;
 
