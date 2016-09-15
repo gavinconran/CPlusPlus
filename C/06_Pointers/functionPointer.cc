@@ -22,7 +22,7 @@ int main() {
     cout << "How many steps to take for the integral: ";
     cin >> n;
     cout << "The integral using " << n << " steps is "
-        << trapez(0.0, 0.5*M_PI, n, my_f) << ".\n";
+        << trapez(0.0, 0.5*M_PI, n, my_f) << ".\n";  // pass my_f
     return 0;
 }
 
