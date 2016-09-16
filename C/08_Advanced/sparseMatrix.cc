@@ -27,13 +27,3 @@ void matrix_vector(double *y, entry **m, int dim, const double *x) {
         for (entry *p = m[i]; p; p = p->next) y[i] += p->val * x[p->j];
     }
 }
-
-
-
-
-
-    
-    
-    
-
-
