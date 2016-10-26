@@ -4,13 +4,19 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../src/Quadratic.cpp 
+../src/Quadratic.cpp \
+../src/QuadraticClass.cpp \
+../src/QuadraticClass_test.cpp 
 
 OBJS += \
-./src/Quadratic.o 
+./src/Quadratic.o \
+./src/QuadraticClass.o \
+./src/QuadraticClass_test.o 
 
 CPP_DEPS += \
-./src/Quadratic.d 
+./src/Quadratic.d \
+./src/QuadraticClass.d \
+./src/QuadraticClass_test.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
