@@ -13,11 +13,12 @@
 using namespace std;
 
 void QuadraticClass::printResult() {
-	std::cout << "Roots are:";
+	cout << "Roots are:";
 	while (!rootSet.empty()) {
-	    std::cout << ' ' << *rootSet.begin();
+	    cout << ' ' << *rootSet.begin();
 	    rootSet.erase(rootSet.begin());
 	}
+	cout << endl;
 }
 
 

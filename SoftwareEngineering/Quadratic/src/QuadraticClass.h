@@ -25,7 +25,7 @@ public:
 
 public:
 	// Constructor
-	QuadraticClass(const int i) {
+	QuadraticClass(const int i = 10) {
 		// Nothing to initialise
 	}
 
