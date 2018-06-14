@@ -39,6 +39,8 @@ public:
 	enum { value = N * factorial<N-1>::value };
 };
 
+// One interesting result of template specialization is it's use in recursion. 
+// The base case can be represented as a template specialization.
 template <>
 class factorial<0> {		// overload definition for factorial<int>
 public:
