@@ -1,6 +1,8 @@
 # GoogleTest (gTest)
 This repository contains code examples from [**Getting started with Google Test (GTest) on Ubuntu**](https://www.eriksmistad.no/getting-started-with-google-test-on-ubuntu/).
 
+It is also worth while checking out the [**gtest Primer**](https://github.com/google/googletest/blob/master/googletest/docs/primer.md)
+
 ### Step 1: install gtest development package
 ```
 $ sudo apt-get install libgtest-dev
